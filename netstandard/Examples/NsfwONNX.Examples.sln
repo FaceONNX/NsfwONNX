@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsfwONNX", "..\NsfwONNX\NsfwONNX.csproj", "{32718A31-F80D-4739-85E7-3B92B7E012A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsfwONNX.WinForms", "NsfwONNX.WinForms\NsfwONNX.WinForms.csproj", "{6D621BFC-84F1-4685-A04F-C2CB2559BFF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{B286FDED-F0DC-45F2-A0BE-D8CBC50AB2CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32718A31-F80D-4739-85E7-3B92B7E012A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32718A31-F80D-4739-85E7-3B92B7E012A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32718A31-F80D-4739-85E7-3B92B7E012A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32718A31-F80D-4739-85E7-3B92B7E012A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D621BFC-84F1-4685-A04F-C2CB2559BFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D621BFC-84F1-4685-A04F-C2CB2559BFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D621BFC-84F1-4685-A04F-C2CB2559BFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D621BFC-84F1-4685-A04F-C2CB2559BFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D621BFC-84F1-4685-A04F-C2CB2559BFF7} = {B286FDED-F0DC-45F2-A0BE-D8CBC50AB2CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2590D279-3CAC-4C14-BB23-46BADE508DBF}
+	EndGlobalSection
+EndGlobal
