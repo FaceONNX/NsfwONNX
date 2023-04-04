@@ -3,7 +3,25 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 	  <LangVersion>8.0</LangVersion>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <AssemblyName>NsfwONNX</AssemblyName>
+	  <LangVersion>8.0</LangVersion>
+	  <Version>1.0.0.1</Version>
+	  <FileVersion>1.0.0.1</FileVersion>
+	  <Authors>Valery Asiryan</Authors>
+	  <Company>Valery Asiryan</Company>
+	  <Description>Not Suitable for Work (NSFW) classification library based on deep neural networks and ONNX runtime.</Description>
+	  <Copyright>Valery Asiryan, © 2023</Copyright>
+	  <RepositoryType>Open-source</RepositoryType>
+	  <PackageId>NsfwONNX</PackageId>
+	  <Product>NsfwONNX</Product>
+	  <AssemblyVersion>1.0.0.1</AssemblyVersion>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageTags>nsfw detection recognition classification onnx neural-networks</PackageTags>
+	  <RepositoryUrl>https://github.com/asiryan/NsfwONNX</RepositoryUrl>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <PackageProjectUrl>https://github.com/asiryan/NsfwONNX</PackageProjectUrl>
+	  <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+	  <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
