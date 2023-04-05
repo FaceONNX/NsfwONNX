@@ -21,6 +21,7 @@
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	  <PackageProjectUrl>https://github.com/asiryan/NsfwONNX</PackageProjectUrl>
 	  <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+	  <PackageIcon>NsfwONNX.png</PackageIcon>
 	  <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
@@ -34,7 +35,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.9.0" />
-    <PackageReference Include="UMapx" Version="5.2.6.5" />
+    <PackageReference Include="UMapx" Version="5.2.6.6" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,6 +44,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+	  <None Include="NsfwONNX.png">
+          <Pack>True</Pack>
+          <PackagePath></PackagePath>
+	  </None>
 	  <None Include="LICENSE.md">
 		  <Pack>True</Pack>
 		  <PackagePath></PackagePath>
