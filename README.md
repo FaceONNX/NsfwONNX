@@ -4,6 +4,13 @@
 # NsfwONNX
 **NsfwONNX** is a Not Suitable for Work (NSFW) recognition library based on [ONNX](https://onnx.ai/) runtime.
 
+# Version
+You can build **NsfwONNX** from sources or install to your own project using nuget package manager.
+| Assembly | Specification | OS | Platform | Package | Algebra |
+|-------------|:-------------:|:-------------:|:--------------:|:--------------:|:--------------:|
+| [NsfwONNX](netstandard/NsfwONNX) | .NET Standard 2.0 | Cross-platform | CPU | [NuGet](https://www.nuget.org/packages/NsfwONNX/) | [UMapx](https://github.com/asiryan/UMapx) |
+| [NsfwONNX.Gpu](netstandard/NsfwONNX.Gpu) | .NET Standard 2.0 | Cross-platform | GPU | [NuGet](https://www.nuget.org/packages/NsfwONNX.Gpu/) | [UMapx](https://github.com/asiryan/UMapx) |
+
 # Installation
 C# interface  
 ```c#
