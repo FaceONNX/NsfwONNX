@@ -3,3 +3,16 @@
 
 # NsfwONNX
 **NsfwONNX** is a Not Suitable for Work (NSFW) recognition library based on [ONNX](https://onnx.ai/) runtime.
+
+# Installation
+C# interface  
+```c#
+using NsfwONNX;
+```
+To get started with **NsfwONNX**, it is recommended to look at the folder with [examples](https://github.com/asiryan/NsfwONNX/tree/main/netstandard/Examples).  
+
+# References 
+Yahoo - [Open NSFW](https://github.com/yahoo/open_nsfw)  
+
+# License
+**FaceONNX** is released under the [MIT](https://github.com/FaceONNX/FaceONNX/blob/main/LICENSE) license.
