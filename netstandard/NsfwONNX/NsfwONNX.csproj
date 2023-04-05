@@ -9,14 +9,14 @@
 	  <FileVersion>1.0.0.1</FileVersion>
 	  <Authors>Valery Asiryan</Authors>
 	  <Company>Valery Asiryan</Company>
-	  <Description>Not Suitable for Work (NSFW) classification library based on deep neural networks and ONNX runtime.</Description>
+	  <Description>Not Suitable for Work (NSFW) recognition library based on deep neural networks and ONNX runtime.</Description>
 	  <Copyright>Valery Asiryan, © 2023</Copyright>
 	  <RepositoryType>Open-source</RepositoryType>
 	  <PackageId>NsfwONNX</PackageId>
 	  <Product>NsfwONNX</Product>
 	  <AssemblyVersion>1.0.0.1</AssemblyVersion>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	  <PackageTags>nsfw detection recognition classification onnx neural-networks</PackageTags>
+	  <PackageTags>nsfw detection recognition classification detection onnx neural-networks</PackageTags>
 	  <RepositoryUrl>https://github.com/asiryan/NsfwONNX</RepositoryUrl>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	  <PackageProjectUrl>https://github.com/asiryan/NsfwONNX</PackageProjectUrl>
