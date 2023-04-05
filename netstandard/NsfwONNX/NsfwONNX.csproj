@@ -17,9 +17,9 @@
 	  <AssemblyVersion>1.0.0.1</AssemblyVersion>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageTags>nsfw detection recognition classification detection onnx neural-networks</PackageTags>
-	  <RepositoryUrl>https://github.com/asiryan/NsfwONNX</RepositoryUrl>
+	  <RepositoryUrl>https://github.com/FaceONNX/NsfwONNX</RepositoryUrl>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-	  <PackageProjectUrl>https://github.com/asiryan/NsfwONNX</PackageProjectUrl>
+	  <PackageProjectUrl>https://github.com/FaceONNX/NsfwONNX</PackageProjectUrl>
 	  <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 	  <PackageIcon>NsfwONNX.png</PackageIcon>
 	  <NeutralLanguage>en</NeutralLanguage>
