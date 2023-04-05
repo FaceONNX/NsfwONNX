@@ -15,4 +15,4 @@ To get started with **NsfwONNX**, it is recommended to look at the folder with [
 Yahoo - [Open NSFW](https://github.com/yahoo/open_nsfw)  
 
 # License
-**NsfwONNX** is released under the [MIT](https://github.com/FaceONNX/FaceONNX/blob/main/LICENSE) license.
+**NsfwONNX** is released under the [MIT](https://github.com/asiryan/NsfwONNX/blob/main/LICENSE) license.
