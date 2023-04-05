@@ -1,4 +1,5 @@
 using UMapx.Core;
+using UMapx.Imaging;
 
 namespace NsfwONNX.WinForms
 {
@@ -45,15 +46,15 @@ namespace NsfwONNX.WinForms
                 _bitmap = new Bitmap(fileName);
                 var results = _nsfwClassifier.Forward(_bitmap);
                 var prob = Matrice.Max(results, out int index);
-                var label = _nsfwClassifier.Labels[index];
+                var label = OpenNsfwClassifier.Labels[index];
                 Console.WriteLine($"{fileName} classified as {label} with {prob}");
 
-                using var g = Graphics.FromImage(_bitmap);
-                var fontSize = 120;
-                using var font = new Font("Times New Roman", fontSize);
-                using var brush = new SolidBrush(label == "Safe" ? Color.Gray : Color.Red);
-
-                g.DrawString(label, font, brush, new PointF(0, 0));
+                if (label != OpenNsfwClassifier.Labels[0])
+                {
+                    var blur = new BoxBlur(2 * (int)(Math.Max(_bitmap.Width, _bitmap.Height) / 40.0));
+                    blur.Apply(_bitmap);
+                    blur.Apply(_bitmap);
+                }
 
                 this.BackgroundImage = _bitmap;
             }

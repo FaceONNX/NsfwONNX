@@ -11,11 +11,6 @@ namespace NsfwONNX
         #region Interface
 
         /// <summary>
-        /// Returns the classifier labels.
-        /// </summary>
-        string[] Labels { get; }
-
-        /// <summary>
         /// Returns nsfw recognition results.
         /// </summary>
         /// <param name="image">Bitmap</param>

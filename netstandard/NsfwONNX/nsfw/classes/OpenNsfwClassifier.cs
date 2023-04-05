@@ -47,16 +47,16 @@ namespace NsfwONNX
 
         #endregion
 
-        #region Properties and methods
+        #region Properties
 
-        /// <inheritdoc/>
-        public string[] Labels
-        {
-            get
-            {
-                return new string[] { "Safe", "Nsfw" };
-            }
-        }
+        /// <summary>
+        /// Returns the classifier labels.
+        /// </summary>
+        public static string[] Labels = new string[] { "Safe", "Nsfw" };
+
+        #endregion
+
+        #region Methods
 
         /// <inheritdoc/>
         public float[] Forward(Bitmap image)
