@@ -125,6 +125,9 @@ namespace NsfwONNX
             }
         }
 
+        /// <summary>
+        /// Destructor of the open nsfw classifier.
+        /// </summary>
         ~OpenNsfwClassifier()
         {
             Dispose(false);

@@ -42,6 +42,11 @@
         <member name="M:NsfwONNX.OpenNsfwClassifier.Dispose">
             <inheritdoc/>
         </member>
+        <member name="M:NsfwONNX.OpenNsfwClassifier.Finalize">
+            <summary>
+            Destructor of the open nsfw classifier.
+            </summary>
+        </member>
         <member name="T:NsfwONNX.INsfwClassifier">
             <summary>
             Defines nsfw classifier interface.
