@@ -27,6 +27,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Optimize>True</Optimize>
+	  <DocumentationFile>C:\Users\Valery\Documents\GitHub\NsfwONNX\netstandard\NsfwONNX\NsfwONNX.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
