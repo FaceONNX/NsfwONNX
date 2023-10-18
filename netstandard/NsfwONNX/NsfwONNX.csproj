@@ -5,8 +5,8 @@
 	  <LangVersion>8.0</LangVersion>
 	  <AssemblyName>NsfwONNX</AssemblyName>
 	  <LangVersion>8.0</LangVersion>
-	  <Version>1.0.1.1</Version>
-	  <FileVersion>1.0.1.1</FileVersion>
+	  <Version>1.0.1.2</Version>
+	  <FileVersion>1.0.1.2</FileVersion>
 	  <Authors>Valery Asiryan</Authors>
 	  <Company>Valery Asiryan</Company>
 	  <Description>Not Suitable for Work (NSFW) recognition library based on deep neural networks and ONNX runtime.</Description>
@@ -14,7 +14,7 @@
 	  <RepositoryType>Open-source</RepositoryType>
 	  <PackageId>NsfwONNX</PackageId>
 	  <Product>NsfwONNX</Product>
-	  <AssemblyVersion>1.0.1.1</AssemblyVersion>
+	  <AssemblyVersion>1.0.1.2</AssemblyVersion>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageTags>nsfw detection recognition classification detection onnx neural-networks</PackageTags>
 	  <RepositoryUrl>https://github.com/FaceONNX/NsfwONNX</RepositoryUrl>
