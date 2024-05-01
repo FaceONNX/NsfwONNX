@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\NsfwONNX\NsfwONNX.csproj" />
   </ItemGroup>
 
