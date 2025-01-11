@@ -10,7 +10,7 @@
 	  <Authors>Valery Asiryan</Authors>
 	  <Company>Valery Asiryan</Company>
 	  <Description>Not Suitable for Work (NSFW) recognition library based on deep neural networks and ONNX runtime.</Description>
-	  <Copyright>Valery Asiryan, © 2024</Copyright>
+	  <Copyright>Valery Asiryan, © 2023-2025</Copyright>
 	  <RepositoryType>Open-source</RepositoryType>
 	  <PackageId>NsfwONNX</PackageId>
 	  <Product>NsfwONNX</Product>
