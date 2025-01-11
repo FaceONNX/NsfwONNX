@@ -52,7 +52,7 @@ namespace NsfwONNX
         /// <summary>
         /// Returns the classifier labels.
         /// </summary>
-        public static readonly string[] Labels = new string[] { "Safe", "Nsfw" };
+        public static readonly string[] Labels = new string[] { "Safe", "NotSafe" };
 
         #endregion
 
