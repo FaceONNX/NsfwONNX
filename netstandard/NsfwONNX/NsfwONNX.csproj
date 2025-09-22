@@ -5,8 +5,9 @@
 	  <LangVersion>8.0</LangVersion>
 	  <AssemblyName>NsfwONNX</AssemblyName>
 	  <LangVersion>8.0</LangVersion>
-	  <Version>1.0.6.1</Version>
-	  <FileVersion>1.0.6.1</FileVersion>
+	  <Version>1.1.1.1</Version>
+	  <FileVersion>1.1.1.1</FileVersion>
+	  <AssemblyVersion>1.1.1.1</AssemblyVersion>
 	  <Authors>Valery Asiryan</Authors>
 	  <Company>Valery Asiryan</Company>
 	  <Description>Not Suitable for Work (NSFW) recognition library based on deep neural networks and ONNX runtime.</Description>
@@ -14,7 +15,6 @@
 	  <RepositoryType>Open-source</RepositoryType>
 	  <PackageId>NsfwONNX</PackageId>
 	  <Product>NsfwONNX</Product>
-	  <AssemblyVersion>1.0.6.1</AssemblyVersion>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageTags>nsfw detection recognition classification detection onnx neural-networks</PackageTags>
 	  <RepositoryUrl>https://github.com/FaceONNX/NsfwONNX</RepositoryUrl>
@@ -36,7 +36,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ML.OnnxRuntime.Managed" Version="1.9.0" />
-    <PackageReference Include="UMapx" Version="6.1.0.3" />
+    <PackageReference Include="UMapx" Version="7.5.1.1" />
   </ItemGroup>
 
   <ItemGroup>
